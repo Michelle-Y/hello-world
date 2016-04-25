@@ -44,12 +44,13 @@ class MovieTree
         void countMostTime(string title);
         void ShowMovies(string title);
         //void CompareTime();
+        void WriteHistory(MovieNode *Writenode);
 
 
 
     protected:
     private:
-        void WriteHistory(MovieNode *Writenode);
+        //void WriteHistory(MovieNode *Writenode);
         void DeleteAll(MovieNode * node); //use this for the post-order traversal deletion of the tree
         void printMovieInventory(MovieNode * node);
         void countMovieNodes(MovieNode *node, int *c);

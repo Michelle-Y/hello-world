@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1461540398 source:/home/user/Desktop/Project/main.cpp
+	"MovieTree.h"
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+
+1461534151 /home/user/Desktop/Project/include/MovieTree.h
+	<string>
+
+1461615504 source:/home/user/Desktop/Project/src/MovieTree.cpp
+	"MovieTree.h"
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+
